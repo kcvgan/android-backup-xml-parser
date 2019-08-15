@@ -1,44 +1,49 @@
 {
-  "name": "android-backup-xml-parser",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "test": "jest",
-    "test:watch": "jest --watch"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
+    "name": "android-backup-xml-parser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "typings": "lib/index.d.ts",
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "tsc",
+        "test": "jest",
+        "test:watch": "jest --watch"
     },
-    "moduleFileExtensions": [
-      "ts",
-      "js"
+    "files": [
+        "lib"
     ],
-    "testRegex": "^.+\\.test\\.ts$"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kcvgan/android-backup-xml-parser.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kcvgan/android-backup-xml-parser/issues"
-  },
-  "homepage": "https://github.com/kcvgan/android-backup-xml-parser#readme",
-  "devDependencies": {
-    "@types/jest": "24.0.17",
-    "@typescript-eslint/eslint-plugin": "2.0.0",
-    "@typescript-eslint/parser": "2.0.0",
-    "eslint": "6.1.0",
-    "eslint-config-prettier": "6.0.0",
-    "eslint-plugin-prettier": "3.1.0",
-    "jest": "24.8.0",
-    "prettier": "1.18.2",
-    "ts-jest": "24.0.2",
-    "typescript": "3.5.3"
-  }
+    "jest": {
+        "transform": {
+            "^.+\\.tsx?$": "ts-jest"
+        },
+        "moduleFileExtensions": [
+            "ts",
+            "js"
+        ],
+        "testRegex": "^.+\\.test\\.ts$"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kcvgan/android-backup-xml-parser.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kcvgan/android-backup-xml-parser/issues"
+    },
+    "homepage": "https://github.com/kcvgan/android-backup-xml-parser#readme",
+    "devDependencies": {
+        "@types/jest": "24.0.17",
+        "@typescript-eslint/eslint-plugin": "2.0.0",
+        "@typescript-eslint/parser": "2.0.0",
+        "eslint": "6.1.0",
+        "eslint-config-prettier": "6.0.0",
+        "eslint-plugin-prettier": "3.1.0",
+        "jest": "24.8.0",
+        "prettier": "1.18.2",
+        "ts-jest": "24.0.2",
+        "typescript": "3.5.3"
+    }
 }
